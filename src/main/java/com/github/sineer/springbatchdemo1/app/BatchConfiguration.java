@@ -35,7 +35,7 @@ import com.github.sineer.springbatchdemo1.tasklet.CreateCsvFileTasklet;
 @Configuration
 @EnableBatchProcessing
 public class BatchConfiguration {
-	private static final Integer ROW_COUNT = 1000000;
+	private static final Integer ROW_COUNT = 100;
 	private static final String INPUT_FILE_PATH = "E:\\\\TEMP_FILES\\\\StockPosition\\\\input.csv";
 	private static final String OUTPUT_FILE_PATH = "E:\\\\TEMP_FILES\\\\StockPosition\\\\output.csv";
 
